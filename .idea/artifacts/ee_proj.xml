@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ee_proj">
+    <output-path>$PROJECT_DIR$/out/artifacts/ee_proj</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="enterprise" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.3" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.5.1" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.5.0" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.resource:jakarta.resource-api:2.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.0-RC1" />
+          <element id="library" level="project" name="Maven: jakarta.servlet:jakarta.servlet-api:5.0.0" />
+          <element id="library" level="project" name="postgresql-42.5.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="enterprise/web/Web" />
+    </root>
+  </artifact>
+</component>
