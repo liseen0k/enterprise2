@@ -2,6 +2,7 @@ package org.example;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.example.CLI.CLI;
 import org.example.Models.*;
 import org.example.Services.DBServices;
 
@@ -22,6 +23,8 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException, SQLException {
+
+        new CLI().start();
 //        ObjectMapper mapper = new ObjectMapper();
 //        byte[] jsonData = Files.readAllBytes(Paths.get("players.json"));
 //

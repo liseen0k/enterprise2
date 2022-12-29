@@ -39,6 +39,26 @@ public class Progresses implements Model{
         return maxScore;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setPlayerId(int playerId) {
+        this.playerId = playerId;
+    }
+
+    public void setResourceId(int resourceId) {
+        this.resourceId = resourceId;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public void setMaxScore(int maxScore) {
+        this.maxScore = maxScore;
+    }
+
     @Override
     public String toString() {
         return "id: " + getId() + ", "
